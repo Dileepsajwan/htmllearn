@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables in html</title>
+</head>
+<body>
+    <table border="">
+        <caption>time table</caption>
+        <thead>
+            <tr>
+                <th>sr.no.</th>
+                <th>subjects</th>
+                <th>time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <colgroup>
+            
+            <col span="2" style="background-color: brown;">
+            <col span="" style="background-color: blue;">
+        </colgroup>
+            <tr >
+                <td>1</td>
+                <td>English</td>
+                <td>10:30</td>
+            </tr>
+             <tr >
+                <td rowspan="2">2</td>
+                <td colspan="2">maths</td>
+                <td>11:30</td>
+            </tr>
+             <tr >
+                <td>3</td>
+                <td>science</td>
+                <td>12:30</td>
+            </tr>
+             <tr >
+                <td>4</td>
+                <td>Physics</td>
+                <td>01:30</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Average</td>
+                <td>5</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
