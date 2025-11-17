@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid green; */
+    box-sizing: border-box;
+}
+nav{
+    margin: 10px;
+}
+h1{
+    margin: 10px;
+}
+p{
+    display: block;
+    width: 60%;
+}
+span{
+    width: 60%;
+    /* display: block; */
+
+}
+ul{
+    background-color: black;
+    text-align: end;
+}
+li{
+    display: inline;
+    text-decoration: none;
+    
+}
+li>a:hover{
+    color: white;
+}

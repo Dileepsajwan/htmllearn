@@ -1,0 +1,15 @@
+main{
+    border: 2px solid brown;
+    width: 50%;
+    font-size: 2rem;
+}
+/* vw(view width): it will be according to the main view point not according to the parent teg unlike % */
+
+section{
+    border: 4px dotted green;
+    width: 75vw; 
+    font-size: 2rem;
+}
+/* pixel is absolute unit it has nothing to do with its parent 
+>> em is based on the parent 
+>> same as rem is based on root element */
