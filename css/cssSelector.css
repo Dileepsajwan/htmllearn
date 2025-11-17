@@ -1,0 +1,55 @@
+/* 
+>>SelectorType{
+propertyKey: propertyValue;
+}
+ */
+/* 1.: Element selector */
+/* h1 {
+  color: brown;
+  background-color: yellow;
+}
+p {
+  color: red;
+} */
+
+/* ID selector */
+
+/* #h2Id,#p1ID{
+    color: rgb(46, 12, 184);
+} */
+
+/* class selector */
+/* .h2Class{
+  color: blue;
+} */
+
+/* nested selector
+>>in nested selector the highest preference is ID>>class>>element */
+/* #nestedId{
+  color: red;
+}
+.nestedClass{
+  color: blue;
+}
+
+p{
+  color: green;
+} */
+
+/* universal selector it is applied to all the of the page */
+
+/* *{
+  color: red;
+  padding: 5px;
+  margin: 3px;
+} */
+
+/* decendent selector */
+
+/* #decSel  p{
+    color: red;
+} */
+/* direct child selector */
+#decSel > p{
+  color: red;
+}
