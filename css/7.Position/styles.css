@@ -1,0 +1,56 @@
+.container {
+  margin: 100px;
+  padding: 0;
+  width: 600px;
+  height: 600px;
+  background-color: aqua;
+  /* position: relative; */
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    color: white;
+}
+
+.sta{
+    position: static;
+    background-color: black;
+    /* top: 100px;
+    left: 100px; */
+}
+
+.rel{
+    position: relative;
+    background-color: red;
+    top: 100px;
+    left: 100px;
+}
+
+.abs{
+    position: absolute;
+    background-color: yellow;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.fix{
+    position: fixed;
+    background-color: brown;
+    top: 50px;
+    left: 0;
+    z-index: 2;
+}
+
+.sti{
+    position: sticky;
+    background-color: purple;
+    top: 500px;
+    left: 500px;
+}
+
+.whitespace{
+    height: 600vh;
+}
+
